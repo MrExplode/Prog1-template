@@ -4,7 +4,7 @@ Ez a template repo a Prog1 GUI fejlesztés során használt framework Windowson 
 
 ## Ismert problémák
 
-Szerény tudásommal nem tudtam megoldani a namespace collisiont a `Polygon` és a `Rectangle`classok és a MinGW rendszer classok között, ezért a fentebb említett classokat namespace jelöléssel kell használni.  
+Szerény tudásommal nem tudtam megoldani a namespace collisiont a `Shape` subclassok és a MinGW rendszer classok között, ezért a fentebb említett classokat namespace jelöléssel kell használni.  
 Pl.:
 
 ```c++
@@ -40,7 +40,7 @@ src
 
 ```
 
-A forráskódot a `compile.sh` script segítségével tudod futtatni.
+A forráskódot a `compile.sh` vagy a `compile.bat` script segítségével tudod futtatni.
 
 ```bash
 
@@ -49,6 +49,7 @@ A forráskódot a `compile.sh` script segítségével tudod futtatni.
 Pl:
 
 ./compile.sh week2/drill12.cpp week2/drill12.out
+compile.bat week2/drill12.cpp week2/drill12.exe
 
 ```
 
