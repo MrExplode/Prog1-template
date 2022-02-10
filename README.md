@@ -4,7 +4,7 @@ Ez a template repo a Prog1 GUI fejlesztés során használt framework Windowson 
 
 ## Ismert problémák
 
-Szerény tudásommal nem tudtam megoldani a namespace collisiont a `Polygon` és a `Rectangle`classok és a MinGW rendszer classok között, ezért a fentebb említett classokat namespace jelöléssel kell használni.
+Szerény tudásommal nem tudtam megoldani a namespace collisiont a `Polygon` és a `Rectangle`classok és a MinGW rendszer classok között, ezért a fentebb említett classokat namespace jelöléssel kell használni.  
 Pl.:
 
 ```c++
